@@ -40,7 +40,7 @@ html, body{
     background-size: 9vw 8vw;
 }
 .namelogo{
-    margin-top: 16%;
+    margin-top: 13%;
     color: #EEEEEE;
     font-size: 4.8vw;
     width: fit-content;
@@ -126,7 +126,7 @@ html, body{
     font-family: 'Lucida Grande';
     float: center;
     text-align: center;
-    color:blueviolet;
+    color:#EEEEEE;
 
     text-decoration: underline;
     width:100%;
