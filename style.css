@@ -32,8 +32,8 @@ html, body{
     margin: 0;
 }
 .logo {
-    width: 4.5vw;
-    height: 4vw;
+    width: 9vw;
+    height: 8vw;
     margin-top: 20%;
     background-repeat: no-repeat;
     background: url(SVG/eye-logo.svg);
@@ -61,7 +61,7 @@ html, body{
 .header {
     display: grid;
     grid-gap: 5vw;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     width: 100%;
     height: 35%;
     background: url(SVG/head_mob.svg);
@@ -69,23 +69,63 @@ html, body{
     
 }
 
+    .home {
+        display: none;
+        
+    }
+    .info {
+        display: none;
+        
+    }
+    .envelope {
+        display: none;
+        
+    }
+    .cart {
+        display: none;
+        
+    }
+    .namehome{
+        display: none;
+        
+    }
+    .nameinfo{
+        display: none;
+        
+    }
+    .nameenvelope{
+        display: none;
+        
+    }
+    .namebuy{
+        display: none;
+        
+    }
+
+    .head-cont2{
+        display: none;
+        
+    }
+    img{
+        display: none;
+        
+    }
 
 .ideatext{
-    font-size: 3.2vw;
+    font-size: 6.4vw;
     font-family: 'Lucida Grande';
-    float: right;
-    text-align: right;
+    float: center;
+    text-align: center;
     width:100%;
-    color: #333333;
-    margin-top: 5vw;
-    margin-right: 20vw;
+    color: #EEEEEE;
+    margin-top: 40%;
+    
 }
 .whatis{
-    font-size: 1.2vw;
+    font-size: 2.4vw;
     font-family: 'Lucida Grande';
-    float: right;
-    text-align: right;
-    margin-right: 1vw;
+    float: center;
+    text-align: center;
     color:blueviolet;
 
     text-decoration: underline;
@@ -93,10 +133,11 @@ html, body{
 }
 .buynow{
     background-image: url(SVG/buynow.png);
-    width: 24vw;
-    height: 6vw;
-    float:right;
-    background-size: 24vw 6vw;
+    width: 48vw;
+    height: 12vw;
+    float:center;
+    margin-left: 25%;
+    background-size: 48vw 12vw;
     background-repeat: no-repeat;
 
 }
