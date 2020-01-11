@@ -17,7 +17,7 @@ html, body{
 .second{
     background-color: #F6F6F6;
     width: 100%;
-    height: 100%;
+    height: 80%;
     margin: 0;
     padding-top:30vw;
 }
@@ -173,23 +173,24 @@ html, body{
 }
 
 .cont-desc{
+    padding-top: 10vw;
     display: block;
     margin-top: 0;
 }
 
 .titl{
-    margin-top: 10vw;
+    padding-top: 10vw;
     display: block;
     color: #333333;
     font-family: 'Lucida Grande';
     float: center;
     text-align: center;
     width:100%;
-    font-size: 4.8vw;
+    font-size: 6.4vw;
     background-size: auto;
 }
 .descr{
-    margin-top: 3vw;
+    padding-top: 3vw;
     display: block;
     color: #333333;
     font-family: 'Lucida Grande';
@@ -197,11 +198,11 @@ html, body{
     text-align: center;
     width: 80%;
     margin-left:10%;
-    font-size: 2.4vw;
+    font-size: 3.6vw;
 
 }
 .vid{
-    margin-top: 3vw;
+    padding-top: 3vw;
     display:grid;
     color: #333333;
     grid-template-columns: auto auto;
@@ -221,14 +222,14 @@ html, body{
     color: #333333;
     margin-top: 0;
     font-family: 'Lucida Grande';
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     text-decoration: underline;
 }
 .pricenotice{
     color: #333333;
-    margin-top: 3vw;
+    margin-top: 0;
     width:100%;
     text-align:center;
     font-family: 'Lucida Grande';
-    font-size: 1vw;
+    font-size: 1.6vw;
 }
