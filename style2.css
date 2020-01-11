@@ -32,6 +32,7 @@ html, body{
     margin: 0;
 }
 
+
 .logo {
     width: 4.5vw;
     height: 4vw;
@@ -41,6 +42,10 @@ html, body{
     background-size: 4.5vw 4vw;
 }
 .home {
+    transition-duration: 0.4s;
+    border: none;
+    background: transparent;
+    cursor: pointer;
     width: 3.3vw;
     height: 2.8vw;
     background: url(SVG/home.svg);
@@ -48,6 +53,10 @@ html, body{
     background-repeat: no-repeat;
 }
 .info {
+    transition-duration: 0.4s;
+    border: none;
+    background: transparent;
+    cursor: pointer;
     width: 3.3vw;
     height: 2.8vw;
     margin: 0;
@@ -56,6 +65,10 @@ html, body{
     background-repeat: no-repeat;
 }
 .envelope {
+    transition-duration: 0.4s;
+    border: none;
+    background: transparent;
+    cursor: pointer;
     width: 3.3vw;
     height: 2.8vw;
     background: url(SVG/envelope.svg);
@@ -63,6 +76,10 @@ html, body{
     background-repeat: no-repeat;
 }
 .cart {
+    transition-duration: 0.4s;
+    border: none;
+    background: transparent;
+    cursor: pointer;
     width: 3.3vw;
     height: 2.8vw;
     background: url(SVG/shopping-cart.svg);
@@ -168,6 +185,7 @@ img{
     margin-right: 20vw;
 }
 .whatis{
+    cursor: pointer;
     font-size: 1.2vw;
     font-family: 'Lucida Grande';
     float: right;
@@ -179,8 +197,10 @@ img{
     width:100%;
 }
 .buynow{
+    transition-duration: 0.4s;
     cursor: pointer;
     border: none;
+    background: transparent;
     background-image: url(SVG/buynow.png);
     width: 24vw;
     height: 6vw;
@@ -240,6 +260,7 @@ img{
     background-repeat: no-repeat;
 }
 .vidtext{
+    cursor: pointer;
     color: #333333;
     margin-top: 0;
     font-family: 'Lucida Grande';
@@ -253,4 +274,212 @@ img{
     text-align:center;
     font-family: 'Lucida Grande';
     font-size: 1vw;
+}
+
+.features{
+    display: grid;
+    margin-left: 0;
+    padding-left: 12%;
+    grid-template-columns: auto auto;
+    grid-gap: 2vw;
+    width: 76%;
+    height: 70%;
+}
+.procc{
+    margin-top: 10vw;
+    float: right;
+    border-radius: 20px;
+    width:30vw;
+    height:20vw;
+    margin-left: 3vw;
+    background: url(SVG/procc.jpg);
+    background-size: 30vw 20vw;
+    background-repeat: no-repeat;
+    
+}
+.features-list{
+    display: grid;
+    float: left;
+    grid-row-gap: 1.2vw;
+    padding-top: 10vw;
+    margin-left: 5%;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 60%;
+}
+.alg{
+    width: 6vw;
+    height: 5vw;
+    margin-top: 1.8vw;
+    margin-left: 0.5vw;
+    background: url(SVG/alg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.speed{
+    width: 6vw;
+    height: 5vw;
+    margin: 0;
+    background: url(SVG/speed.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.ahead{
+    width: 6vw;
+    height: 5vw;
+    margin: 0;
+    background: url(SVG/ahead.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.featuretext{
+    margin-left: 1vw;
+    color:#333333;
+    width:80%;
+    font-size: 2vw;
+    font-family: 'Lucida Grande';
+}
+.comparison{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 0;
+    width: 80%;
+    height: 30%;
+    margin-left:4%;
+}
+.graphs{
+    display: none;
+    padding-top: 5vw;
+    width:80%;
+    height:20%;
+    margin-left:0;
+
+}
+.graphs-desktop{
+    padding-top: 0;
+    margin-left: 5vw;
+    width:70%;
+    height:20%;
+    margin-left:0;
+}
+.percent{
+    margin-top: 5vw;
+    font-size: 3vw;
+    margin-left: 2vw;
+    font-family: 'Lucida Grande';
+    color: #752eb6;
+
+}
+.wyk2{
+    background-image: url(SVG/poor.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 3.5vw;
+    margin-top: 5vw;
+    margin-left: 0;
+    float: left;
+
+}
+.wyk1{
+    background-image: url(SVG/compare.svg);
+    background-size: 55vw 14vw;
+    background-repeat: no-repeat;
+    width:55vw;
+    height: 14vw;
+    margin-left:11vw;
+    float: left;
+
+}
+.wyk-desc{
+    color: #333333;
+    margin-left: 2vw;
+    font-size: 1vw;
+    font-family: 'Lucida Grande';
+    margin-left: 0.5vw;
+}
+
+.offers{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10%;
+    width:70%;
+    height:80%;
+    margin-left: 20%;
+}
+.badoff{
+    background-image: url(SVG/ziemniak.jpg);
+    margin-left: 0;
+    background-size: 20vw 15vw;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 15vw;
+}
+.off{
+    width: 50%;
+    height: 80%;
+
+}
+.goodoff{
+    background-image: url(SVG/comp.png);
+    margin-left: 0%;
+    margin-top: 2vw;
+    float: left;
+    background-size: 18vw 13vw;
+    background-repeat: no-repeat;
+    width: 18vw;
+    height: 13vw;
+}
+
+.offdes{
+    margin-top:0;
+    font-family: 'Lucida Grande';
+    font-size:2vw;
+    text-align: center;
+    width:100%;
+    height:fit-content;
+}
+.buynowsmall{
+    cursor: pointer;
+    padding-top: 4vw;
+    margin-top:3vw;
+    background-image: url(SVG/buynow.png);
+    width: 15vw;
+    height: 4vw;
+    float:center;
+    margin-left: 8%;
+    background-size: 15vw 4vw;
+    background-repeat: no-repeat;
+
+}
+.buynowsmall:hover{
+    background-image: url(SVG/buynowhover.png);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 10%;
+    margin-bottom:0;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-image: url(SVG/footer.svg);
+    background-size: cover;
+
+}
+.footer-text-left{
+    font-size: 1vw;
+    color: #eeeeee;
+    font-family: 'Lucida Grande';
+    margin-left: 3%;
+    float: left;
+}
+.footer-text-right{
+    font-size: 1vw;
+    color: #eeeeee;
+    font-family: 'Lucida Grande';
+    margin-right: 3%;
+    float: right;
+    text-align: right;
 }

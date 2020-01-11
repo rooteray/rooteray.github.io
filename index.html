@@ -13,11 +13,11 @@
             <div class="head-cont2">
                 <div class="home"></div>
                 <div class="namehome">Home</div>
-                <div class="info"></div>
+                <div class="info" onclick="scrollToItem(second)"></div>
                 <div class="nameinfo">About</div>
                 <div class="envelope"></div>
                 <div class="nameenvelope">Contact</div>
-                <div class="cart"></div>
+                <div class="cart" onclick="scrollToItem(fourth)"></div>
                 <div class="namebuy">Buy</div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                 <p>
                     Don't have idea<br />
                     for your own startup?<br />
-                    <div class="whatis">
+                    <div class="whatis" onclick="scrollToItem(second)">
                         <p>
                             What is GENMEN™? <br />
                         </p>
@@ -38,7 +38,7 @@
         </div>
     </div>
 </div>
-<div class="second">
+<div id="second" class="second">
     <div class="cont-desc">
         <div class="titl">
                 Extremely efficient.
@@ -57,6 +57,7 @@
 </div>
 <div class="third">
     <div class="features">
+        <div class="procc"></div>
         <div class="features-list">
             <div class="alg"></div>
             <div class="featuretext">New revolutionary algorithm with the most powerful hardware.</div>
@@ -68,6 +69,9 @@
         </div>
     </div>
     <div class="comparison">
+        <div class="graphs-desktop">
+            <div class="wyk1"></div>
+        </div>
         <div class="percent">
             3.8x
             <div class="wyk-desc">better performance</div>
@@ -79,14 +83,18 @@
 </div>
 <div id="fourth" class="fourth">
     <div class="offers">
-        <div class="offdes"><b>GENMEN II™</b></div>
-        <div class="badoff"></div>
-        <div class="offdes">$9999</div>
-        <div class="buynowsmall"></div>
-        <div class="offdes"><b>GENMEN II Pro™</b></div>
-        <div class="goodoff"></div>
-        <div class="offdes">$99999</div>
-        <div class="buynowsmall"></div>
+        <div class="off">
+            <div class="offdes"><b>GENMEN II™</b></div>
+            <div class="badoff"></div>
+            <div class="offdes">$9999</div>
+            <div class="buynowsmall"></div>
+        </div>
+        <div class="off">
+            <div class="offdes"><b>GENMEN II Pro™</b></div>
+            <div class="goodoff"></div>
+            <div class="offdes">$99999</div>
+            <div class="buynowsmall"></div>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-text-left">Rafał Kulka, phone number: 123123123 (Toll free)</div>

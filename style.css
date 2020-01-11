@@ -165,6 +165,7 @@ html, body{
 }
 .buynow{
     border: none;
+    background: transparent;
     background-image: url(SVG/buynow.png);
     width: 48vw;
     height: 12vw;
@@ -408,4 +409,11 @@ html, body{
     margin-right: 3%;
     float: right;
     text-align: right;
+}
+.graphs-desktop{
+    display: none;
+}
+.off{
+    width: 100%;
+    
 }
