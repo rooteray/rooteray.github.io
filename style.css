@@ -173,7 +173,7 @@ html, body{
 }
 
 .cont-desc{
-    padding-top: 10vw;
+    padding-top: 5vw;
     display: block;
     margin-top: 0;
 }
@@ -196,25 +196,25 @@ html, body{
     font-family: 'Lucida Grande';
     float: center;
     text-align: center;
-    width: 80%;
-    margin-left:10%;
+    width: 90%;
+    margin-left:5%;
     font-size: 3.6vw;
 
 }
 .vid{
-    padding-top: 3vw;
+    padding-top: 5vw;
     display:grid;
     color: #333333;
     grid-template-columns: auto auto;
     float: center;
-    width: 23%;
-    margin-left:38.5%;
+    width: 33%;
+    margin-left:34%;
 }
 .vidicon{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2vw;
+    height: 2vw;
     background: url(SVG/play.svg);
-    margin-top:0.1vw;
+    margin-top:0.3vw;
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -226,8 +226,9 @@ html, body{
     text-decoration: underline;
 }
 .pricenotice{
+    
     color: #333333;
-    margin-top: 0;
+    padding-top: 5vw;
     width:100%;
     text-align:center;
     font-family: 'Lucida Grande';
