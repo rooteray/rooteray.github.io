@@ -234,3 +234,95 @@ html, body{
     font-family: 'Lucida Grande';
     font-size: 2.8vw;
 }
+
+.features{
+    display: block;
+    grid-gap: 2vw;
+    width: 100%;
+    height: 70%;
+    background-image: url(SVG/proc.jpg);
+    background-size: cover;
+}
+.features-list{
+    display: grid;
+    padding-top: 18%;
+    margin-left: 5%;
+    grid-template-columns: auto auto;
+    width: 90%;
+    height: 60%;
+}
+.alg{
+    width: 14.2vw;
+    height: 12.2vw;
+    margin-left: 0.5vw;
+    background: url(SVG/alg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.speed{
+    width: 13.2vw;
+    height: 11.2vw;
+    margin: 0;
+    background: url(SVG/speed.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.ahead{
+    width: 13.2vw;
+    height: 11.2vw;
+    margin: 0;
+    background: url(SVG/ahead.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.featuretext{
+    margin-left: 1vw;
+    color:#EEEEEE;
+    width:50%;
+    font-size: 4.5vw;
+    font-family: 'Lucida Grande';
+    width: auto;
+}
+.comparison{
+    padding-top: 5vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 30%;
+}
+.graphs{
+    padding-top: 5vw;
+    width:70%;
+    height:20%;
+
+}
+.percent{
+    margin-top: 50%;
+    font-size: 5vw;
+    font-family: 'Lucida Grande';
+    color: #752eb6;
+
+}
+.wyk2{
+    background-image: url(SVG/poor.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 30%;
+    margin-top: 5vw;
+
+}
+.wyk1{
+    background-image: url(SVG/good.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width:80vw;
+    height: 30%;
+
+}
+.wyk-desc{
+    color: #333333;
+    font-size: 2vw;
+    font-family: 'Lucida Grande';
+    margin-left: 0.5vw;
+}
