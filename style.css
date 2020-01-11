@@ -284,21 +284,21 @@ html, body{
     width: auto;
 }
 .comparison{
-    padding-top: 5vw;
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 100%;
+    padding-top: 7vw;
+    width: 98%;
     height: 30%;
+    margin-left:2%;
 }
 .graphs{
     padding-top: 5vw;
-    width:70%;
+    width:100%;
     height:20%;
+    margin-left:0;
 
 }
 .percent{
-    margin-top: 50%;
-    font-size: 5vw;
+    margin-top: 2%;
+    font-size: 7vw;
     font-family: 'Lucida Grande';
     color: #752eb6;
 
@@ -308,21 +308,25 @@ html, body{
     background-size: auto;
     background-repeat: no-repeat;
     width: 25vw;
-    height: 30%;
+    height: 3.5vw;
     margin-top: 5vw;
+    margin-left: 0;
+    float: left;
 
 }
 .wyk1{
-    background-image: url(SVG/good.svg);
-    background-size: auto;
+    background-image: url(SVG/compare.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    width:80vw;
-    height: 30%;
+    width:90vw;
+    height: 14vw;
+    margin-left:0;
+    float: left;
 
 }
 .wyk-desc{
     color: #333333;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: 'Lucida Grande';
     margin-left: 0.5vw;
 }
