@@ -391,14 +391,14 @@ html, body{
 
 }
 .footer-text-left{
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: #eeeeee;
     font-family: 'Lucida Grande';
     margin-left: 3%;
     float: left;
 }
 .footer-text-right{
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: #eeeeee;
     font-family: 'Lucida Grande';
     margin-right: 3%;
