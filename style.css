@@ -164,6 +164,7 @@ html, body{
     width:100%;
 }
 .buynow{
+    border: none;
     background-image: url(SVG/buynow.png);
     width: 48vw;
     height: 12vw;
@@ -172,6 +173,9 @@ html, body{
     background-size: 48vw 12vw;
     background-repeat: no-repeat;
 
+}
+.buynow:active{
+    background-image: url(SVG/buynowhover.png);
 }
 
 .cont-desc{

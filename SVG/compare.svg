@@ -1,1 +1,24 @@
-<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 135.13"><defs><style>.cls-1{fill:url(#Gradient_bez_nazwy_22);}.cls-2{fill:url(#Gradient_bez_nazwy_17);}.cls-3{font-size:20px;font-family:LucidaGrande, Lucida Grande;}</style><linearGradient id="Gradient_bez_nazwy_22" y1="48.5" x2="800" y2="48.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#752eb6"/><stop offset="1" stop-color="#949ccc"/></linearGradient><linearGradient id="Gradient_bez_nazwy_17" x1="-12.28" y1="128.5" x2="243.72" y2="128.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#444"/><stop offset="1" stop-color="#ccc"/></linearGradient></defs><title>compare</title><path class="cls-1" d="M789.07,59H0V38H789.93A10.07,10.07,0,0,1,800,48.07h0A10.93,10.93,0,0,1,789.07,59Z" transform="translate(0 -38)"/><path class="cls-2" d="M245.49,139H0V118H245.51A10.49,10.49,0,0,1,256,128.49h0A10.52,10.52,0,0,1,245.49,139Z" transform="translate(0 -38)"/><text class="cls-3" transform="translate(10.93 39.86)">NEW GENMEN 2™</text><text class="cls-3" transform="translate(11.31 120.39)">OLD GENMEN™</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 135.1" style="enable-background:new 0 0 800 135.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{font-family:'LucidaGrande';}
+	.st3{font-size:20px;}
+</style>
+<title>compare</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="89.5" x2="800" y2="89.5" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<stop  offset="0" style="stop-color:#752EB6"/>
+	<stop  offset="1" style="stop-color:#949CCC"/>
+</linearGradient>
+<path class="st0" d="M789.1,21H0V0h789.9c5.6,0,10.1,4.5,10.1,10.1c0,0,0,0,0,0l0,0C800,16.1,795.1,21,789.1,21z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-12.28" y1="9.5" x2="243.72" y2="9.5" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<stop  offset="0" style="stop-color:#444444"/>
+	<stop  offset="1" style="stop-color:#CCCCCC"/>
+</linearGradient>
+<path class="st1" d="M245.5,101H0V80h245.5c5.8,0,10.5,4.7,10.5,10.5v0l0,0C256,96.3,251.3,101,245.5,101z"/>
+<text transform="matrix(1 0 0 1 10.93 39.86)" class="st2 st3">NEW GENMEN II™</text>
+<text transform="matrix(1 0 0 1 11.31 120.39)" class="st2 st3">OLD GENMEN™</text>
+</svg>
