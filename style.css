@@ -247,7 +247,7 @@ html, body{
 }
 .features-list{
     display: grid;
-    padding-top: 18%;
+    padding-top: 22%;
     margin-left: 5%;
     grid-template-columns: auto auto;
     width: 90%;
