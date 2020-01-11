@@ -32,6 +32,8 @@ html, body{
     width: 100%;
     height: 100%;
     margin: 0;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 .logo {
@@ -329,4 +331,77 @@ html, body{
     font-size: 3vw;
     font-family: 'Lucida Grande';
     margin-left: 0.5vw;
+}
+
+.offers{
+    padding-top: 2%;
+    width:80%;
+    height:80%;
+    margin-left: 10%;
+}
+.badoff{
+    background-image: url(SVG/ziemniak.jpg);
+    margin-left: 24%;
+    background-size: 40vw 30vw;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 30vw;
+}
+
+.goodoff{
+    margin-top:2vw;
+    background-image: url(SVG/comp.png);
+    margin-left: 27%;
+    background-size: 35vw 30vw;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 30vw;
+}
+
+.offdes{
+    padding-top: 3vw;
+    font-family: 'Lucida Grande';
+    font-size:4vw;
+    text-align: center;
+    width:100%;
+    height:fit-content;
+}
+.buynowsmall{
+    padding-top: 4vw;
+    background-image: url(SVG/buynow.png);
+    width: 24vw;
+    height: 6vw;
+    float:center;
+    margin-left: 35%;
+    background-size: 24vw 6vw;
+    background-repeat: no-repeat;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom:0;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-image: url(SVG/footer.svg);
+    background-size: cover;
+
+}
+.footer-text-left{
+    font-size: 1.7vw;
+    color: #eeeeee;
+    font-family: 'Lucida Grande';
+    margin-left: 3%;
+    float: left;
+}
+.footer-text-right{
+    font-size: 1.7vw;
+    color: #eeeeee;
+    font-family: 'Lucida Grande';
+    margin-right: 3%;
+    float: right;
+    text-align: right;
 }
