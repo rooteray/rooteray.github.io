@@ -173,13 +173,13 @@ html, body{
 }
 
 .cont-desc{
-    padding-top: 5vw;
+    padding-top: 3vw;
     display: block;
     margin-top: 0;
 }
 
 .titl{
-    padding-top: 5vw;
+    padding-top: 3vw;
     display: block;
     color: #333333;
     font-family: 'Lucida Grande';
@@ -202,7 +202,7 @@ html, body{
 
 }
 .vid{
-    padding-top: 7vw;
+    padding-top: 10vw;
     display:grid;
     color: #333333;
     grid-template-columns: auto auto;
@@ -228,7 +228,7 @@ html, body{
 .pricenotice{
     
     color: #333333;
-    padding-top: 8vw;
+    padding-top: 18vw;
     width:100%;
     text-align:center;
     font-family: 'Lucida Grande';
