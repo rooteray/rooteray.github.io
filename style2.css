@@ -17,6 +17,7 @@ html, body{
     width: 100%;
     height: 100%;
     margin: 0;
+    padding-top: 10vw;
 }
 .third{
     background-color: #FFFFFF;
@@ -185,4 +186,66 @@ img{
     background-size: 24vw 6vw;
     background-repeat: no-repeat;
 
+}
+
+.cont-desc{
+    display: block;
+    margin-top: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.titl{
+    display: block;
+    color: #333333;
+    font-family: 'Lucida Grande';
+    float: center;
+    text-align: center;
+    width:100%;
+    font-size: 4.8vw;
+    background-size: auto;
+}
+
+.descr{
+    display: block;
+    color: #333333;
+    font-family: 'Lucida Grande';
+    float: center;
+    text-align: center;
+    width: 80%;
+    margin-left:10%;
+    font-size: 2.4vw;
+
+}
+.vid{
+    margin-top: 3vw;
+    display:grid;
+    color: #333333;
+    grid-template-columns: auto auto;
+    float: center;
+    width: 23%;
+    margin-left:38.5%;
+}
+.vidicon{
+    width: 1.5vw;
+    height: 1.5vw;
+    background: url(SVG/play.svg);
+    margin-top:0;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.vidtext{
+    color: #333333;
+    margin-top: 0;
+    font-family: 'Lucida Grande';
+    font-size: 1.2vw;
+    text-decoration: underline;
+}
+.pricenotice{
+    color: #333333;
+    margin-top: 3vw;
+    width:100%;
+    text-align:center;
+    font-family: 'Lucida Grande';
+    font-size: 1vw;
 }
