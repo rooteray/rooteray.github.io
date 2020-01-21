@@ -1,34 +1,34 @@
 html, body{
-    height: 100%;
-    width: 100%;
+    height: vw;
+    width: vw;
     margin: 0;
     
 }
 
 .first{
     background-color: #F6F6F6;
-    width: 100%;
-    height: 100%;
+    width: vw;
+    height: vw;
     margin: 0;
 }
 
 .second{
     background-color: #F6F6F6;
-    width: 100%;
-    height: 80%;
+    width: vw;
+    height: 43vw;
     margin: 0;
     padding-top: 10vw;
 }
 .third{
     background-color: #FFFFFF;
-    width: 100%;
-    height: 100%;
+    width: vw;
+    height: vw;
     margin: 0;
 }
 .fourth{
     background-color: #FFFFFF;
-    width: 100%;
-    height: 100%;
+    width: vw;
+    height: vw;
     margin: 0;
 }
 
@@ -159,8 +159,8 @@ html, body{
     display: grid;
     grid-gap: 5vw;
     grid-template-columns: auto;
-    width: 100%;
-    height: 35%;
+    width: vw;
+    height: auto;
     background: url(SVG/head.svg);
     background-repeat:no-repeat;
     
@@ -225,6 +225,7 @@ img{
     color: #333333;
     font-family: 'Lucida Grande';
     float: center;
+    margin-top: 3vw;
     text-align: center;
     width:100%;
     font-size: 4.8vw;
@@ -283,7 +284,7 @@ img{
     grid-template-columns: auto auto;
     grid-gap: 2vw;
     width: 76%;
-    height: 70%;
+    height: 35vw;
 }
 .procc{
     margin-top: 10vw;
@@ -404,7 +405,7 @@ img{
     grid-template-columns: auto auto;
     padding-top: 10%;
     width:70%;
-    height:80%;
+    height:40vw;
     margin-left: 20%;
 }
 .badoff{
